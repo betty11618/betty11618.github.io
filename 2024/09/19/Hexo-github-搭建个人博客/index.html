@@ -20,28 +20,45 @@
     var CONFIG = {"hostname":"betty11618.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://betty11618.github.io/index.html">
+  <meta name="description" content="安装node.jsNode.js — 在任何地方运行 JavaScript (nodejs.org) 注意环境变量配置（安装时自动给配置了，不需要手动配） 检查安装是否成功  github创建仓库仓库命名 xxx.github.io   进入仓库，创建文件 index.html 1&lt;h1&gt;Hello Github Pages&lt;&#x2F;h1&gt;    git for windows安">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo + github 搭建个人博客">
+<meta property="og:url" content="https://betty11618.github.io/2024/09/19/Hexo-github-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="安装node.jsNode.js — 在任何地方运行 JavaScript (nodejs.org) 注意环境变量配置（安装时自动给配置了，不需要手动配） 检查安装是否成功  github创建仓库仓库命名 xxx.github.io   进入仓库，创建文件 index.html 1&lt;h1&gt;Hello Github Pages&lt;&#x2F;h1&gt;    git for windows安">
 <meta property="og:locale">
+<meta property="og:image" content="https://raw.githubusercontent.com/betty11618/images/img/202408152147586.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/betty11618/images/img/202409062052872.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/betty11618/images/img/202409062120544.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/betty11618/images/img/202409062122432.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/betty11618/images/img/202409062125162.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/betty11618/images/img/202409192000094.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/betty11618/images/img/202409192000096.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/betty11618/images/img/202409192000097.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/betty11618/images/img/202409192000098.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/betty11618/images/img/202409192000099.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/betty11618/images/img/202409192000100.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/betty11618/images/img/202409182017345.png">
+<meta property="article:published_time" content="2024-09-19T11:54:51.000Z">
+<meta property="article:modified_time" content="2024-09-19T12:00:39.693Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/betty11618/images/img/202408152147586.png">
 
-<link rel="canonical" href="https://betty11618.github.io/">
+<link rel="canonical" href="https://betty11618.github.io/2024/09/19/Hexo-github-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'default'
   };
 </script>
 
-  <title>Hexo</title>
+  <title>Hexo + github 搭建个人博客 | Hexo</title>
   
 
 
@@ -139,12 +156,13 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="default">
     <link itemprop="mainEntityOfPage" href="https://betty11618.github.io/2024/09/19/Hexo-github-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -157,10 +175,9 @@
       <meta itemprop="name" content="Hexo">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/09/19/Hexo-github-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">Hexo + github 搭建个人博客</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          Hexo + github 搭建个人博客
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -184,7 +201,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h2><p><a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn">Node.js — 在任何地方运行 JavaScript (nodejs.org)</a></p>
+        <h2 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h2><p><a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn">Node.js — 在任何地方运行 JavaScript (nodejs.org)</a></p>
 <p>注意环境变量配置（安装时自动给配置了，不需要手动配）</p>
 <p>检查安装是否成功</p>
 <p><img src="https://raw.githubusercontent.com/betty11618/images/img/202408152147586.png" alt="image-20240815214704528"></p>
@@ -247,21 +264,23 @@
 <p><a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/INSTALLATION.md">hexo-theme-next&#x2F;docs&#x2F;zh-CN&#x2F;INSTALLATION.md at master · theme-next&#x2F;hexo-theme-next (github.com)</a></p>
 <p>跟着文档来就可以啦</p>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+
+        
+
+
+        
       </footer>
+    
   </article>
   
   
-  
-
-
   
 
 
@@ -314,6 +333,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85node-js"><span class="nav-number">1.</span> <span class="nav-text">安装node.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#github%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93"><span class="nav-number">2.</span> <span class="nav-text">github创建仓库</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#git-for-windows%E5%AE%89%E8%A3%85"><span class="nav-number"></span> <span class="nav-text">git for windows安装</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#github-ssh%E9%85%8D%E7%BD%AE"><span class="nav-number"></span> <span class="nav-text">github ssh配置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo%E6%9C%AC%E5%9C%B0%E4%BD%BF%E7%94%A8"><span class="nav-number"></span> <span class="nav-text">Hexo本地使用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#sublime%E5%AE%89%E8%A3%85"><span class="nav-number"></span> <span class="nav-text">sublime安装</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B0%86Hexo%E5%8F%91%E5%B8%83%E5%88%B0github%E4%B8%8A"><span class="nav-number"></span> <span class="nav-text">将Hexo发布到github上</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo%E4%B8%BB%E9%A2%98"><span class="nav-number"></span> <span class="nav-text">Hexo主题</span></a></div>
       </div>
       <!--/noindex-->
 
